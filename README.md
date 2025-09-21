@@ -32,15 +32,6 @@ EasyOCR (pip install easyocr)
 
 OpenCV (pip install opencv-python)
 
-yolov8-indian-number-plate-detection/
-│
-├── dataset/                # Images and annotations
-├── detect.py               # Image detection script
-├── detect.py         # detection script
-├── best.pt                 # Trained YOLOv8 model
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
-
 
 References
 
