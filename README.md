@@ -1,30 +1,75 @@
-# IndianNumberPlateDetectionUsingYolov8
-This repository contains a deep learning project for detecting Indian vehicle number plates using YOLOv8 and performing OCR (Optical Character Recognition) to extract text from detected plates. The project is designed to work on images and videos for real-time applications.
+# 🚗 Indian Number Plate Detection using YOLOv8
 
-Features
+## 📌 Problem Statement
+Automatic Number Plate Recognition (ANPR) is crucial for traffic monitoring, toll collection, law enforcement, and smart city systems. Manual identification of vehicle number plates is inefficient and error-prone.
 
-Detect Indian number plates from images and video streams.
+This project aims to build a deep learning-based system to detect Indian vehicle number plates and extract text using OCR.
 
-OCR recognition using EasyOCR to extract number plate text.
+---
 
-Right-to-left reading order for multi-row plates.
+## 🎯 Objective
+- Detect vehicle number plates in images and videos  
+- Extract text from detected plates using OCR  
+- Build an end-to-end automated number plate recognition system  
 
-Zoomed-in bounding box for better OCR accuracy.
+---
 
-Display recognized text directly on images/videos.
+## ⚙️ Tech Stack
+- Python  
+- YOLOv8 (Ultralytics)  
+- OpenCV  
+- EasyOCR / Tesseract OCR  
+- NumPy, Pandas  
+- Roboflow (Dataset Annotation)  
 
-Dataset
+---
 
-Custom dataset of Indian number plates collected from public sources and manually annotated using Roboflow.
+## 🔄 Workflow
+1. Data Collection & Annotation (Roboflow)  
+2. Data Preprocessing & Augmentation  
+3. Model Training using YOLOv8  
+4. Number Plate Detection  
+5. OCR for Text Extraction  
+6. Output Visualization  
 
-Dataset includes multiple plate formats (single-row and double-row plates).
+---
 
-Annotated in YOLO format (.txt with [class, x_center, y_center, width, height]).
+## 🧠 Model Details
+- Used YOLOv8 for real-time object detection  
+- Trained on custom dataset of Indian vehicle number plates  
+- Achieved optimized performance using fine-tuning and hyperparameter tuning  
 
-Requirements
+---
 
-Python 3.8+
+## 📊 Features
+- Real-time number plate detection  
+- High-speed object detection using YOLOv8  
+- OCR integration for text extraction  
+- Works on images, videos, and webcam input  
+- End-to-end automated pipeline  
 
+---
+
+## 📈 Results
+- Accurate detection of number plates in various conditions  
+- Successful extraction of plate text using OCR  
+- Efficient performance with lightweight YOLOv8 model  
+
+---
+
+## 🚀 Future Improvements
+- Improve OCR accuracy for low-quality images  
+- Deploy as a web application (Flask/Streamlit)  
+- Integrate with real-time traffic systems  
+- Use advanced models for better accuracy  
+
+---
+
+## ▶️ How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/IndianNumberPlateDetectionUsingYolov8.git
+   cd IndianNumberPlateDetectionUsingYolov8
 Ultralytics YOLO
  (pip install ultralytics)
 
